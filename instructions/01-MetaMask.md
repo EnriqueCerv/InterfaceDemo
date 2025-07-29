@@ -14,7 +14,7 @@ MetaMask is an extension for accessing Ethereum enabled distributed applications
 You should be able to see your account on top right side of your browser. 
 <img src="https://i.postimg.cc/L53YnKHL/Meta-Mask-installed.png" height="400"/>
 
-1. Click on the button to the top left corner and switch your network from **Ethereum Mainnet** to **Sepolia Test Network**. 
+1. Click on the button to the top left corner and switch your network from **Ethereum Mainnet** to **Sepolia Test Network**. You may need to click on 'Show test networks' for the Sepolia network to appear.
 <img src="https://i.postimg.cc/Vsqb7Mjv/Meta-Mask-Sepolia.png" height="400"/>
 
 1. Next we have to put some Ethereum (ETH) in your account. Go to [Sepolia testnet faucet](https://cloud.google.com/application/web3/faucet/ethereum/sepolia) to get some ETH for free. You may need a Sepolia address to proceed, which is the address of your MetaMask account that can be copied from your account page. 

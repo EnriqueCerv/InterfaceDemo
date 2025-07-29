@@ -20,7 +20,7 @@ There is actually an official tutorial to use [React in VSCode](https://code.vis
 - **Install necessary packages**
   - Install [Node.js](https://nodejs.org/en/), in which npm should be included. 
   - To verify that you have Node.js installed correctly on your computer, open a terminal or command prompt and type ```node --version``` or ```npm --version``` to check the version. 
-  - If installed correctly, you will see ```v20.17.0``` on the screen if you type ```node --version``` and ```10.8.3``` for ```npm --version```. Make sure that your versions are correct, or your may get into trouble installing web3 into your project (details on this issue can be found [here](https://github.com/dududududulu/InterfaceDemo/issues/4)). 
+  - If installed correctly, you will see ```v22.17.1``` on the screen if you type ```node --version``` and ```10.9.2``` for ```npm --version```. Make sure that your versions are correct, or your may get into trouble installing web3 into your project (details on this issue can be found [here](https://github.com/dududududulu/InterfaceDemo/issues/4)). 
 
 - **Create the React project**
   - You can now create a new React application by typing the following command:
@@ -29,34 +29,34 @@ There is actually an official tutorial to use [React in VSCode](https://code.vis
     ```
     where ```project-name``` is the name of the folder of your application. This may take a few minutes so please wait patiently until it is done:
     ```
-    Creating a new React app in C:\Users\ian_g\my-dapp.
+    Creating a new React app in /Users/enriquecervero/Desktop/CQT_stuffs/Blockchain_Course/test_project.
 
     Installing packages. This might take a couple of minutes.
     Installing react, react-dom, and react-scripts with cra-template...
 
 
-    added 1480 packages in 1m
+    added 1323 packages in 30s
 
-    262 packages are looking for funding
+    269 packages are looking for funding
       run `npm fund` for details
 
     Initialized a git repository.
 
     Installing template dependencies using npm...
 
-    added 63 packages, and changed 1 package in 4s
+    added 18 packages, and changed 1 package in 3s
 
-    262 packages are looking for funding
+    269 packages are looking for funding
       run `npm fund` for details
     Removing template package using npm...
 
 
-    removed 1 package, and audited 1543 packages in 3s
+    removed 1 package, and audited 1341 packages in 2s
 
-    262 packages are looking for funding
+    269 packages are looking for funding
       run `npm fund` for details
 
-    8 vulnerabilities (2 moderate, 6 high)
+    9 vulnerabilities (3 moderate, 6 high)
 
     To address all issues (including breaking changes), run:
       npm audit fix --force
@@ -65,7 +65,7 @@ There is actually an official tutorial to use [React in VSCode](https://code.vis
 
     Created git commit.
 
-    Success! Created my-dapp at C:\Users\ian_g\my-dapp
+    Success! Created test_project at /Users/enriquecervero/Desktop/CQT_stuffs/Blockchain_Course/test_project
     Inside that directory, you can run several commands:
 
       npm start
@@ -83,7 +83,7 @@ There is actually an official tutorial to use [React in VSCode](https://code.vis
 
     We suggest that you begin by typing:
 
-      cd my-dapp
+      cd test_project
       npm start
 
     Happy hacking!
@@ -97,12 +97,14 @@ There is actually an official tutorial to use [React in VSCode](https://code.vis
     Wait until a webpage (http://localhost:3000/project-name) pop up and then you should be able to see the following page. Note that you have to **keep the terminal window open** for the page to keep updated. 
     ![react-localhost](https://i.postimg.cc/RVyWSF4F/react-localhost.png)
 
-  - To open your application folder in VSCode, open another terminal or comman prompt window and type:
+  - To open your application folder in VSCode, open another terminal or command prompt window and type:
     ```
     cd project-name
     code .
     ```
     You should be able to see the project files in VSCode window. 
+
+    You may need to install the command code . on VSCode first. To do this open VSCode and press cmd + Shift + P (ctrol on Windows) to open the Command Palette. Begin typing: "Install 'code'" and select option Shell Command: "Install 'code' command in PATH".
 
   - Open file ```App.js``` in the folder ```project-name/src``` in VSCode, replace the tenth line with the following sentence and save the changes:
     ```
