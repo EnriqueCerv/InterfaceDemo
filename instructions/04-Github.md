@@ -52,6 +52,9 @@ The GitHub repository can be connected to a local folder and we can sync any cha
     # Verifies the new remote URL
     git remote -v
 
+    # Changes the existing remote URL
+    git remote set-url origin <New repository URL>
+    
     # Push your changes
     git push origin main --force
     ```
