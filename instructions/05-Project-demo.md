@@ -18,9 +18,20 @@ This part gives the steps to clone the [demo code](https://github.com/dududududu
     ```
     cd project-name
     npm install react-router-dom
+    npm install ethers@5.7.2 
     ```
   - Type ```npm start``` to run the application demo, and go to http://localhost:3000/InterfaceDemo/ to view the page. 
     ![demo-login](https://i.postimg.cc/hjrpTG1t/demo-login.png)
+  - If everything compiled without errors, your localhost site should be blank because of a different address name. 
+    Navigate to line 238 in apps.js and change to
+    ```
+    <Route path = "/{website repository name from instruction 4}" element = {<Login isHaveMetamask = {haveMetamask} connectTo = {connectWallet} />}></Route>
+    ```
+    Additionally, navigate to line 15 in global.js and change to
+    ```
+    <Link to = "/{website repository name from instruction 4}">Login</Link>
+    ```
+    In your own project, it will be a better idea to use a standard for naming.
   - Now you can design your own application based on the framework of this demo! 
 
 
